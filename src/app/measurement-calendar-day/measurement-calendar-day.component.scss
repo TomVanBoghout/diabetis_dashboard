@@ -1,0 +1,12 @@
+@import "../../_color-definitions";
+.day{
+  //border: solid 1px green;
+  //border: solid 1px black;
+  background-color: $palette-mcgpalette1-50;
+  margin-bottom: 3px;
+}
+
+.date {
+  width: 100px;
+  text-align: center;
+}

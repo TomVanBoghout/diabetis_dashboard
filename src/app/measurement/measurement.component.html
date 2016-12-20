@@ -1,0 +1,55 @@
+<md-card>
+
+  <md-card-title  *ngIf="day">{{day.date | date:'fullDate'}}</md-card-title>
+  <md-card-content *ngIf="day">
+    <form name="measurementForm">
+      <div>
+        <md-card-subtitle>Ochtend</md-card-subtitle>
+        <md-input name="glycemia_before" placeholder="Voor" [(ngModel)]="day.morning.glycemia_before">
+        </md-input>
+        <md-input name="treatment" placeholder="Behandeling" [(ngModel)]="day.morning.treatment">
+        </md-input>
+        <md-input name="treatment_extra" placeholder="Extra" [(ngModel)]="day.morning.treatment_extra">
+        </md-input>
+        <md-input name="glycemia_after" placeholder="Na" [(ngModel)]="day.morning.glycemia_after">
+        </md-input>
+      </div><br>
+      <div>
+        <md-card-subtitle>Middag</md-card-subtitle>
+        <md-input name="glycemia_before" placeholder="Voor" [(ngModel)]="day.noon.glycemia_before">
+        </md-input>
+        <md-input name="treatment" placeholder="Behandeling" [(ngModel)]="day.noon.treatment">
+        </md-input>
+        <md-input name="treatment_extra" placeholder="Extra" [(ngModel)]="day.noon.treatment_extra">
+        </md-input>
+        <md-input name="glycemia_after" placeholder="Na" [(ngModel)]="day.noon.glycemia_after">
+        </md-input>
+      </div>
+      <div>
+        <md-card-subtitle>Avond</md-card-subtitle>
+        <md-input name="glycemia_before" placeholder="Voor" [(ngModel)]="day.evening.glycemia_before">
+        </md-input>
+        <md-input name="treatment" placeholder="Behandeling" [(ngModel)]="day.evening.treatment">
+        </md-input>
+        <md-input name="treatment_extra" placeholder="Extra" [(ngModel)]="day.evening.treatment_extra">
+        </md-input>
+        <md-input name="glycemia_after" placeholder="Na" [(ngModel)]="day.evening.glycemia_after">
+        </md-input>
+      </div>
+      <div>
+        <md-card-subtitle>Nacht</md-card-subtitle>
+        <md-input name="glycemia_before" placeholder="Voor" [(ngModel)]="day.night.glycemia_before">
+        </md-input>
+        <md-input name="treatment" placeholder="Behandeling" [(ngModel)]="day.night.treatment">
+        </md-input>
+        <md-input name="treatment_extra" placeholder="Extra" [(ngModel)]="day.night.treatment_extra">
+        </md-input>
+        <md-input name="glycemia_after" placeholder="Na" [(ngModel)]="day.night.glycemia_after">
+        </md-input>
+      </div>
+    </form>
+  </md-card-content>
+  <md-card-content *ngIf="!day">
+    No day found
+  </md-card-content>
+</md-card>

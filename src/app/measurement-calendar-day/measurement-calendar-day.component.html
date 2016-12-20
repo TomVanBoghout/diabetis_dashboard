@@ -1,0 +1,9 @@
+<div class="table day" (click)="editDay()">
+  <div class="table_row">
+    <div class="table_cell date">{{day.date | date:'EEE, d MMM'}}</div>
+    <app-measurement-calendar-day-part class="table_cell" [measeurement]="day.morning" ></app-measurement-calendar-day-part>
+    <app-measurement-calendar-day-part class="table_cell" [measeurement]="day.noon"></app-measurement-calendar-day-part>
+    <app-measurement-calendar-day-part class="table_cell" [measeurement]="day.evening"></app-measurement-calendar-day-part>
+    <app-measurement-calendar-day-part class="table_cell" [measeurement]="day.night"></app-measurement-calendar-day-part>
+  </div>
+</div>

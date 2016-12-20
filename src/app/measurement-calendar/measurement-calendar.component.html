@@ -1,0 +1,14 @@
+<div class="table">
+  <div class="table_row" *ngFor="let day of days | async">
+    <!--<div class="table_cell">
+      {{day.date}}
+    </div>
+    <div class="table_cell">
+      {{day.date}}
+    </div>
+-->
+    <app-measurement-calendar-day  [day]="day">
+
+    </app-measurement-calendar-day>
+  </div>
+</div>

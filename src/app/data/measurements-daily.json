@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "date": "2016-12-19T12:58:40.743Z",
+    "morning": {
+      "id": 1,
+      "glycemia_before": 100,
+      "glycemia_after": 110,
+      "treatment": 20,
+      "treatment_extra": 1
+    },
+    "noon": {
+      "id": 2,
+      "glycemia_before": 100,
+      "glycemia_after": 110,
+      "treatment": 20,
+      "treatment_extra": 1
+    },
+    "evening": {
+      "id": 3,
+      "glycemia_before": 100,
+      "glycemia_after": 110,
+      "treatment": 20,
+      "treatment_extra": 1
+    },
+    "night": {
+      "id": 4,
+      "glycemia_before": 100,
+      "glycemia_after": 110,
+      "treatment": 20,
+      "treatment_extra": 1
+    }
+  },
+  {
+    "id": 2,
+    "date": "2016-12-20T12:58:40.743Z",
+    "morning": {
+      "id": 1,
+      "glycemia_before": 100,
+      "glycemia_after": 110,
+      "treatment": 20,
+      "treatment_extra": 1
+    },
+    "noon": {
+      "id": 2,
+      "glycemia_before": 100,
+      "glycemia_after": 110,
+      "treatment": 20,
+      "treatment_extra": 1
+    },
+    "evening": {
+      "id": 3,
+      "glycemia_before": 100,
+      "glycemia_after": 110,
+      "treatment": 20,
+      "treatment_extra": 1
+    },
+    "night": {
+      "id": 4,
+      "glycemia_before": 100,
+      "glycemia_after": 110,
+      "treatment": 20,
+      "treatment_extra": 1
+    }
+  },
+  {
+    "id": 3,
+    "date": "2016-12-21T12:58:40.743Z",
+    "morning": {
+      "id": 1,
+      "glycemia_before": 100,
+      "glycemia_after": 110,
+      "treatment": 20,
+      "treatment_extra": 1
+    },
+    "noon": {
+      "id": 2,
+      "glycemia_before": 100,
+      "glycemia_after": 110,
+      "treatment": 20,
+      "treatment_extra": 1
+    },
+    "evening": {
+      "id": 3,
+      "glycemia_before": 100,
+      "glycemia_after": 110,
+      "treatment": 20,
+      "treatment_extra": 1
+    },
+    "night": {
+      "id": 4,
+      "glycemia_before": 100,
+      "glycemia_after": 110,
+      "treatment": 20,
+      "treatment_extra": 1
+    }
+  }
+]

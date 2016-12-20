@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "glycemia_before": 100,
+    "glycemia_after": 110,
+    "treatment": 20,
+    "treatment_extra": 1
+  },
+  {
+    "id": 2,
+    "glycemia_before": 100,
+    "glycemia_after": 110,
+    "treatment": 20,
+    "treatment_extra": 1
+  },
+  {
+    "id": 3,
+    "glycemia_before": 100,
+    "glycemia_after": 110,
+    "treatment": 20,
+    "treatment_extra": 1
+  }
+]

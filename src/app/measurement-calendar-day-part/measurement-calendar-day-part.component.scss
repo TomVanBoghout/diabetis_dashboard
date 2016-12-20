@@ -1,0 +1,17 @@
+@import "../../_color-definitions";
+div{
+  padding: 3px;
+  div{
+    padding: 3px;
+    div{
+
+    }
+  }
+}
+
+.measurement{
+  background-color: white;
+}
+.treatment{
+  background-color: $palette-ordina-100;
+}
